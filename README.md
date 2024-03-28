@@ -13,7 +13,8 @@ The task is simple: create a Flutter app that consumes the [Rick and Morty API](
 - Create a search character functionality.
 
 ### Tips
-- The architecture is up to you, you can manage the state using Provider, BLoC, GetX, Riverpod, Stateful widgets, anything you want, but pay attention to the complexity and boilerplate.
+- Use Clean Architecture with Bloc or Cubit for the UI layer
+- You can use GoRouter for routing
 - The layout is up to you, but keep in mind, simple and intuitive is better.
 - Use a JSON to Dart converter to easily convert your models, you can use freezed if so you wish.
 
